@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout" />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:weightSum="4"
+    android:id="@+id/linearLayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ssup"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="w"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="z"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ss"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Total = 2 New Events "
+        android:id="@+id/upcorner"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bor"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.0"/>
+
+
+</RelativeLayout>

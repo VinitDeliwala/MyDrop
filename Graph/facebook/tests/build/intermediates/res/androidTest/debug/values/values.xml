@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/MyDrop/facebook-android-sdk-master/facebook/tests/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_id">1234567890</string>
+    <string name="client_token">abcdef123456</string>
+</resources>

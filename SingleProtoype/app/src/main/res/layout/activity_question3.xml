@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.vinit.flowlayout.FirstActivity"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="Interview Form"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:id="@+id/myImageView"
+        android:src="@drawable/back"
+        android:layout_below="@+id/myImageViewText"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Why do you want to work with our organization3"
+        android:id="@+id/textques"
+        android:layout_below="@+id/myImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@drawable/yellow"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button2"
+        android:background="@drawable/back"
+        android:textColor="#ffffff"
+        android:onClick="q3"
+        android:layout_below="@+id/q2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/white"
+        android:hint="  250 Words Minimum"
+        android:textColorHint="@drawable/back"
+        android:id="@+id/q2"
+        android:layout_below="@+id/textques"
+        android:gravity="top|left"
+        android:layout_margin="10dp"/>
+
+
+</RelativeLayout>

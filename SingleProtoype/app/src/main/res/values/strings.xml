@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FlowLayout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="back">#15B2AB</drawable>
+    <drawable name="back1">#15B2A0</drawable>
+    <drawable name="yellow">#FFDA00</drawable>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="terms">This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.This is a term and condition.</string>
+    <string name="dialog2">The following steps include four questions that you and your partner need to answer as best as possible because your answers will be sent to NPO. The purpose of these questions is so the NPO can get to know you better and determine if this will be the right fit.</string>
+    <string name="dialog1">You\'re about to connect with NPO name</string>
+    <string name="title_activity_email">Email</string>
+    <string name="compose_email">Compose Email</string>
+
+
+    <string name="chat_title">Chat</string>
+    <string name="chat_cancel">Cancel</string>
+    <string name="chat_message">New Message</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_to">TO :</string>
+    <string name="chat_cc">CC :</string>
+    <string name="chat_subject">Subject :</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="verify_msg">Must connect with your \n nonprofit to obtain \n your access code. \n \n Contact US \n 212-345-748 \n npo@mydrop.com</string>
+</resources>
